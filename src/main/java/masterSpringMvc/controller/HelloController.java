@@ -8,6 +8,6 @@ public class HelloController {
 @RequestMapping("/")
 @ResponseBody
 public String hello() {
-return "Hello, world!";
+return "Hello, world from HelloController!";
 }
 }
